@@ -1,0 +1,276 @@
+*{
+    margin : 0;
+    padding : 0;
+    background-color : #F1F2F4;
+}
+
+nav{
+
+    display : flex;
+    position : sticky;
+    top : 0px;
+    height : 67px;
+    background-color : white;
+
+}
+
+#logo{
+
+    padding : 6px 12px 12px 12px;
+    display : flex;
+    flex-direction : column;
+    background-color : white;
+    margin-left : 80px;
+
+}
+
+#Input{
+
+    display : flex;
+    flex-direction : row;
+    align-items : center;
+    height : 67px;
+    background-color : white;
+    margin-left : 40px;
+    margin-right : 40px;
+    padding-left : 20px;
+
+}
+
+#search{
+
+    padding : 5px 8px 5px 8px;
+    display : flex;
+    flex-direction : row;
+    background-color : #F0F5FF;
+    height : 30px;
+    width : 30px;
+    border-top-left-radius : 10px;
+    border-bottom-left-radius: 10px;
+
+}
+
+input{
+
+    height : 40px;
+    border : 0px;
+    width : 700px;
+    color : rgb(113,116,120);
+    background-color : #F0F5FF;
+    border-top-right-radius : 10px;
+    border-bottom-right-radius: 10px;
+    font-size : medium;
+
+}
+
+#login{
+
+    display : flex;
+    padding : 23px 8px 20px 8px;
+    background-color : white;
+
+}
+
+img{
+
+    background-color : white;
+
+}
+
+p{
+
+    padding-left : 8px;
+    background-color : white;
+    padding-top : 2px;
+    font-family : sans-serif;
+
+}
+
+#cart{
+
+    display : flex;
+    padding : 23px 8px 20px 8px;
+    background-color : white;
+    padding-left : 60px;
+
+}
+
+#Seller{
+
+    display : flex;
+    padding : 23px 8px 20px 8px;
+    background-color : white;
+    padding-left : 50px;
+
+}
+
+#photos{
+
+    display : flex;
+    justify-content : space-around;
+    padding : 16px 16px 16px 16px;
+    background-color : white;
+    margin : 10px 16px 0px 16px;
+    height : 105px;
+
+}
+
+span{
+
+    background-color : white;
+
+}
+
+#Grocery{
+
+    padding : 0;
+    font-size : 14px;
+    color : #333333;
+    font-weight : bold;
+    font-family : sans-serif;
+    text-align : center;
+
+}
+
+#HandF{
+
+    padding : 0;
+    font-size : 14px;
+    color : #333333;
+    font-weight : bold;
+    font-family : sans-serif;
+    text-align : center;
+
+}
+
+a:hover{
+
+    text-decoration : none;
+    color : black;
+    
+}
+
+#carousel{
+
+    height : 230px;
+    margin : 16px 15px 0px 16px;
+    background-image : url("https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/8074e7b2f6d2bfea.jpg?q=20");
+    background-size : cover;
+    background-repeat : no-repeat;
+
+}
+
+#products{
+
+    height : 350px;
+    margin : 16px 15px 0px 16px;
+    background-color : white;
+    display : flex;
+    flex-direction : column;
+
+}
+
+.images{
+
+    height : 277px;
+    margin : 0px 15px 0px 16px;
+    background-color : white;
+    display : flex;
+    justify-content : space-between;
+
+}
+
+#image{
+
+    height : 265px;
+    width : 224px;
+    background-color : white;
+    border : 1px solid rgba(140 , 140 , 140 , 0.3);
+    border-width : 1px 1px 1px 1px;
+    border-radius : 5px;
+    padding : 5px 5px 10px 5px;
+
+}
+
+footer{
+
+    display : flex;
+    justify-content : space-between;
+    background-color : #212121;
+    height : 320px;
+    margin-top : 30px;
+
+}
+
+#end{
+
+    margin : 50px 90px 153px 90px;
+    display : flex;
+    flex-direction : column;
+    background-color : #212121;
+    font-weight : bold;
+
+}
+
+#list{
+
+    background-color : #212121;
+
+}
+
+ul{
+
+    font-family: inter_semi_bold, fallback-inter_semi_bold, Arial, sans-serif;
+    font-size: 12px;
+    color: white;
+    background-color : #212121;
+
+}
+
+li{
+
+    list-style : none;
+    font-family: inter_semi_bold, fallback-inter_semi_bold, Arial, sans-serif;
+    font-size: 12px;
+    color: white;
+    width : 146px;
+    margin-bottom : 6px;
+    background-color : #212121;
+
+}
+
+#head{
+
+    color : #878787;
+    background-color : #212121;
+    font-size : 12px;
+    margin-bottom : 20px;
+    font-family : sans-serif;
+    width : 120px;
+
+}
+
+#social{
+
+    display : flex;
+    flex-direction : column;
+    width : 100px;
+    margin-top : 50px;
+    color : #878787;
+    background-color : #212121;
+    font-size : 12px;
+    margin-bottom : 40px;
+    font-family : sans-serif;
+    margin-left : -185px;
+
+}
+
+#img{
+
+    margin-top : 8px;
+    background-color : #212121;
+    margin-left : -7px;
+
+}
+
+

@@ -1,0 +1,231 @@
+*{
+    margin : 0;
+    padding : 0;
+    background-color : #F1F3F6;
+    color : white;
+
+}
+
+nav{
+
+    display : flex;
+    position : sticky;
+    top : 0px;
+    height : 67px;
+    background-color : rgb(40,116,240);
+
+}
+
+#logo{
+
+    padding : 6px 12px 12px 12px;
+    display : flex;
+    flex-direction : column;
+    background-color : rgb(40,116,240);
+    margin-left : 80px;
+
+}
+
+#Input{
+
+    display : flex;
+    flex-direction : row;
+    align-items : center;
+    height : 67px;
+    background-color : rgb(40,116,240);
+    margin-left : 40px;
+    margin-right : 40px;
+    padding-left : 20px;
+
+}
+
+#search{
+
+    padding : 5px 8px 5px 8px;
+    display : flex;
+    flex-direction : row;
+    background-color : white;
+    height : 30px;
+    width : 30px;
+    border-top-left-radius : 10px;
+    border-bottom-left-radius: 10px;
+
+}
+
+input{
+
+    height : 40px;
+    border : 0px;
+    width : 700px;
+    color : rgb(113,116,120);
+    background-color : white;
+    border-top-right-radius : 10px;
+    border-bottom-right-radius: 10px;
+    font-size : medium;
+
+}
+
+#login{
+
+    display : flex;
+    padding : 16px 8px 20px 38px;
+    background-color : rgb(40,116,240);
+
+}
+
+img{
+
+    background-color : rgb(40,116,240);
+
+}
+
+p{
+
+    padding-left : 8px;
+    background-color : rgb(40,116,240);
+    padding-top : 2px;
+    font-family : sans-serif;
+
+}
+
+.login{
+
+    padding-left : 0px;
+    background-color : white;
+    padding-top : 8px;
+    font-family : sans-serif;
+    color : rgb(40,116,240);
+    width : 92px;
+    height : 27px;
+    text-align : center;
+    font-weight : bolder;
+    text-decoration : none;
+
+}
+
+#cart{
+
+    display : flex;
+    padding : 23px 8px 20px 8px;
+    background-color : rgb(40,116,240);
+    padding-left : 60px;
+
+}
+
+#Seller{
+
+    display : flex;
+    padding : 23px 8px 20px 8px;
+    background-color : rgb(40,116,240);
+    padding-left : 50px;
+
+}
+
+footer{
+
+    display : flex;
+    justify-content : center;
+
+}
+
+#first{
+
+    background-color : rgb(40,116,240);
+    margin-top : 35px;
+    height : 580px;
+    width : 320px;
+    display : flex;
+    flex-direction : column;
+
+}
+
+#second{
+
+    background-color : white;
+    margin-top : 35px;
+    height : 580px;
+    width : 500px;
+    display : flex;
+    flex-direction : column;
+    
+}
+
+img{
+
+    padding-top : 162px;
+    padding-left : 5px;
+    background-color : rgb(40,116,240);
+
+}
+
+.Name{
+
+    margin : 56px 35px 0px 0px;
+    background-color : white;
+    width : 420px;
+    border : 2px solid grey;
+    border-width : 0px 0px 2px 0px;
+    border-radius : 0px;
+    margin-left : 40px;
+    color : #878787;
+    font-family : sans-serif;
+
+}
+
+.Name:focus{
+
+    outline : 0;
+    border : 0px 0px 2px 0px;
+    color : black;
+
+}
+
+.Number{
+
+    margin : 30px 35px 0px 0px;
+    background-color : white;
+    width : 420px;
+    border : 2px solid grey;
+    border-width : 0px 0px 2px 0px;
+    border-radius : 0px;
+    margin-left : 40px;
+    color : #878787;
+    font-family : sans-serif;
+
+}
+
+.Number:focus{
+
+    outline : 0;
+    border : 0px 0px 2px 0px;
+    color : black;
+
+}
+
+#button{
+
+    margin : 20px 35px 0px 40px;
+    background : #fb641b;
+    box-shadow : 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    border : none;
+    color : white;
+    font-family : sans-serif;
+    width: 420px;
+    height: 48px;
+    font-size: 15px;
+    font-weight : bold;
+    border-radius : 0px;
+
+}
+
+.account{
+
+    color : #2874f0;
+    font-weight : bold;
+    font-family : sans-serif;
+    margin-top : 216px;
+    text-align : center;
+    background-color : white;
+    text-decoration : none;
+
+}
